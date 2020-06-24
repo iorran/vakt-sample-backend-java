@@ -15,7 +15,7 @@ entity LegNomination {
     status NominationStatus
     counterPartyStatus NominationStatus
     comment String
-    nominationTimestamp LocalDateTime
+    nominationTimestamp Instant
     cnCode String
     financialHold String
     consignor String
