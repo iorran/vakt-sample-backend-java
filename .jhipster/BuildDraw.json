@@ -1,0 +1,30 @@
+{
+  "name": "BuildDraw",
+  "fields": [
+    {
+      "fieldName": "fakeProp",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "legNomination",
+      "otherEntityRelationshipName": "buildDraws",
+      "relationshipName": "legNomination",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20200624025611",
+  "entityTableName": "build_draw",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "VaktSampleBackend",
+  "applications": "*",
+  "microserviceName": "VaktSampleBackend"
+}
